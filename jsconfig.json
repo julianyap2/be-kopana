@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "commonjs",
+        "types": [
+            "node",
+            "mongoose"
+        ],
+    },
+    "include": [
+        "global.d.ts",
+        "routes/**/*.js",
+        "models/**/*.js",
+        "controllers/**/*.js",
+        "middlewares/**/*.js"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
